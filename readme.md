@@ -7,4 +7,4 @@ https://dunkaales.github.io/dochazimikava
 
 !!!ale updatuje se to pomalu takze mas mnohem lepsi si rozjet live server a pak to jen prcnout in
 
-to je asi prozatim vse :P >:3
+also z nejakeho duvodu kdyz to spoustim z toho odkazu tak nefunguje css?? 
