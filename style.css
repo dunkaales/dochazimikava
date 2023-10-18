@@ -47,7 +47,36 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     background-color: #65451F;
 }
 
-h1{font-size: clamp(72px, 5vw, 140px);}
+.text-side > h1{font-size: clamp(72px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
+.text-side >h2{margin: 0;} /*vypinam margin aby byly texty bliz*/
 
 h1 > span{font-size: clamp(72px, 6vw, 240px);} /* "addicted" */
 
+.text-side{width: 40%;}
+.text-side{width: 60%;}
+.longasstext{width: 70%;}
+
+.testdiv
+{
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    margin-top: 30px;
+    overflow: auto;
+
+    height: 80vh; 
+    width: 55vh;
+}
+
+.testdiv::-webkit-scrollbar{background:transparent;}
+
+.testdiv::-webkit-scrollbar-track{margin-block: 2em;} /*margin block abychom zkratili track*/
+
+.testdiv::-webkit-scrollbar-thumb /*scrollbar box*/
+{
+    background-color: rgb(68, 66, 66);
+    border-radius: 100vh;
+    height: 20px;
+}
+
+.landing{display: inline-flex;flex-wrap: nowrap;align-items: center;} /*landing oznacuje prvni 2 veci co uzivatel uvidi - text a test
+dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod textem - zarucuje ze budou vedle sebe */
