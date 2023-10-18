@@ -1,1 +1,53 @@
+/* ahoj klarko tady si muzeme popripade psat cute zpravicky :333
+
+pokusim se ti stihnout udelat alespon ten langing layout pro tvuj autisticky testik,
+jestli to neni jeste dnes hotove tak jsem usnur sorik
+
+myslim ze fontik muze zustat porad si nejsem celkovym feelem designu ale premyslim nad 
+trosicku nad earthy tones ale mozna kombinace tmave sede, chcankove zlute a nejakymi mezibarvami by mohla
+byt taky dost fresh
+
+*/
+
+
+body
+{
+    background-color: #d8ba94;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+header      /* header ma 100% aby "space around" fungoval neatly, */
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+header > div{width: 33%;display: flex;justify-content: center;} /* protoze mame v headru 3 hlavni sekce tak jsem jim vsem dal sirku 33% 
+aby se element uprostred - logo opravdu zobrazoval uprostred */
+
+.links span{padding: 15px;} /*padding okolo textu v linku necht fresh */
+
+.logo{          /* prozatim dokud logo neudelam aby to alespon zabralo prostor :3 */
+    width: 300px;
+    height: 55px;
+    background-color: #65451F;
+    border-radius: 10px;
+}
+
+main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
+
+.headerbutton > span      /* tlacitko v headru */
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #65451F;
+}
+
+h1{font-size: clamp(72px, 5vw, 140px);}
+
+h1 > span{font-size: clamp(72px, 6vw, 240px);} /* "addicted" */
 
