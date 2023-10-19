@@ -17,6 +17,9 @@ body
     background-color: var(--dark-gray);
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--white);
+
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header      /* header ma 100% aby "space around" fungoval neatly, */
@@ -117,3 +120,13 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 
 #one{left: 0;top: 0;}
 #two{right: 0; top: 75vh}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.answer-container {
+    display: flex;
+    flex-direction: column;
+}

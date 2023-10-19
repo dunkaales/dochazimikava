@@ -1,4 +1,4 @@
-window.onload = function () { 
+
     const questions = [
         {
             question: "1. Do you feel anxious or stressed when you are without a phone or computer device for an extended period of time?",
@@ -114,4 +114,3 @@ window.onload = function () {
             textPsych.textContent = 'The score results indicate a healthy and balanced approach to device usage, without any signs of addiction';
         }
     }
-}
