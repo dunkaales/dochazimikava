@@ -113,5 +113,9 @@ window.onload = function () {
         } else {
             textPsych.textContent = 'The score results indicate a healthy and balanced approach to device usage, without any signs of addiction';
         }
+
+        const resultButton = document.querySelector('button');
+        resultButton.style.display = 'none';
+        questionsElement.style.display = 'none';
     }
 }
