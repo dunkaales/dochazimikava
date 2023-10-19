@@ -112,6 +112,4 @@ function showResult(){
     } else {
         textPsych.textContent = 'The score results indicate a healthy and balanced approach to device usage, without any signs of addiction';
     }
-
-
 }
