@@ -13,7 +13,7 @@ byt taky dost fresh
 body
 {
     background-color: var(--dark-gray);
-    font-family: 'Miriam Libre', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--white);
 }
 
@@ -29,16 +29,20 @@ header      /* header ma 100% aby "space around" fungoval neatly, */
 header > div{width: 33%;display: flex;justify-content: center;} /* protoze mame v headru 3 hlavni sekce tak jsem jim vsem dal sirku 33% 
 aby se element uprostred - logo opravdu zobrazoval uprostred */
 
-.links span{padding: 15px;} /*padding okolo textu v linku necht fresh */
+.links span
+{padding: 15px; font-weight: bold;cursor: pointer; 
+backface-visibility: hidden; /*pri pouzivani scale se diky tomuto lepe text renderuje a neni blurred pri transition*/
+transition: 0.3s ease;
+} 
 
-.logo{          /* prozatim dokud logo neudelam aby to alespon zabralo prostor :3 */
+.links span:hover{scale: 120%;}
+
+.logo
+{ 
     width: 300px;
     height: 55px;
-    /*background-color: var(--yellow);*/
-    border-radius: 10px;
+    transform: translateY(5px);
 }
-
-.logo img{transform: scale(150%);} /*meli bychom pak pouzit max/min width cuz scale dela kokotiny s rendrovanim*/
 
 main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
 
@@ -49,6 +53,7 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     color: var(--dark-gray);
     background-color: var(--yellow);
     font-weight: bold;
+    cursor: pointer;
 }
 
 .text-side > h1{font-size: clamp(72px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
@@ -102,10 +107,11 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
     border-radius: 50%; /* Makes it a circle */
     background: radial-gradient(circle at center, var(--yellow), transparent, transparent);
     position: absolute;
-    opacity: 70%;
+    opacity: 30%;
     z-index: -1;
     margin: -300px;
     scale: 300%;
 }
 
-#first{left: 0;top: 0;}
+#one{left: 0;top: 0;}
+#two{right: 0; top: 75vh}
