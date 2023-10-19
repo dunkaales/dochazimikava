@@ -1,0 +1,27 @@
+    <div class="container">
+        <h1>Internet Overuse</h1>
+        <div id="questions"></div>
+        <span id="score-value"></span><br>
+        <span id="textpsych"></span>
+        <button onclick="showResult()">Results</button>
+    </div>
+
+    do indexu - na to misto pro test
+
+
+        <style>
+        .question-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        .answer-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .radio-label input {
+            margin-right: 5px;
+        }
+    </style>
+
+    nejaky radoby style idk zda k necemu bude, ale muzes zkusit
