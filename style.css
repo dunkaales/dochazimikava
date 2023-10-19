@@ -12,8 +12,9 @@ byt taky dost fresh
 
 body
 {
-    background-color: #d8ba94;
+    background-color: var(--dark-gray);
     font-family: 'Miriam Libre', sans-serif;
+    color: var(--white);
 }
 
 header      /* header ma 100% aby "space around" fungoval neatly, */
@@ -33,7 +34,7 @@ aby se element uprostred - logo opravdu zobrazoval uprostred */
 .logo{          /* prozatim dokud logo neudelam aby to alespon zabralo prostor :3 */
     width: 300px;
     height: 55px;
-    background-color: #65451F;
+    background-color: var(--yellow);
     border-radius: 10px;
 }
 
@@ -43,39 +44,51 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
 {
     padding: 10px 15px;
     border-radius: 10px;
-    color: white;
-    background-color: #65451F;
+    color: var(--dark-gray);
+    background-color: var(--yellow);
+    font-weight: bold;
 }
 
 .text-side > h1{font-size: clamp(72px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
 .text-side >h2{margin: 0;} /*vypinam margin aby byly texty bliz*/
 
-h1 > span{font-size: clamp(72px, 6vw, 240px);} /* "addicted" */
+h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicted" */
 
 .text-side{width: 40%;}
 .text-side{width: 60%;}
 .longasstext{width: 70%;}
 
+.testdiv h1{margin: 0; padding: 0;}
+
 .testdiv
 {
-    background-color: rgb(224, 224, 224);
+    background-color: var(--white);
     border-radius: 25px;
     margin-top: 30px;
     overflow: auto;
+    color: var(--dark-gray);
 
     height: 80vh; 
-    width: 55vh;
+    width: 65vh;
 }
 
+.test{width: 90%; margin: auto;}
+
 .testdiv::-webkit-scrollbar{background:transparent;}
-
 .testdiv::-webkit-scrollbar-track{margin-block: 2em;} /*margin block abychom zkratili track*/
-
 .testdiv::-webkit-scrollbar-thumb /*scrollbar box*/
 {
-    background-color: rgb(68, 66, 66);
+    background-color: var(--yellow);
     border-radius: 100vh;
     height: 20px;
+}
+
+:root
+{
+    --dark-gray: #3d3c3c;
+    --light-gray: #646363;
+    --yellow: #F5B316;
+    --white: #E7E5E5;
 }
 
 .landing{display: inline-flex;flex-wrap: nowrap;align-items: center;} /*landing oznacuje prvni 2 veci co uzivatel uvidi - text a test
