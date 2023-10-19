@@ -1,10 +1,27 @@
-ahoj klarko, stahni si urcite github desktok a samotny git, mas pak primy pristup k celemu repozitari rovnou muzes pushnout kod do mainu (ve vscode si to jen uloz pak to posli do branche
-pres samotnou github desktop appku je to tak mnohem rychlejsi)
+ukoly:
 
-jinak odkaz na ten web je tedy 
+a) upravit script aby zmizelo results tlacitko a vsechen text krome vysledku po vyplneni - Klara
+
+b) upravit styl dotazniku po oprave scriptu - Ales
+
+c) pridat slidery/reviews - Klara 
+
+d) pridat chatbota - Klara
+
+e) pridat zbytek stranky(2 mensi a 1 velky div s ?necim? - viz figma) 
+
+f) udelat footer - ???
+
+
+
+
+odkaz na figmu:
+
+https://www.figma.com/file/hq6r79A1QcKT286n0gbOUL/skerodyler?type=design&node-id=0-1&mode=design&t=cVIR4KIffsbCy6bW-0
+
+odkaz na web:
 
 https://dunkaales.github.io/dochazimikava
 
-!!!ale updatuje se to pomalu takze mas mnohem lepsi si rozjet live server a pak to jen prcnout in
 
-also z nejakeho duvodu kdyz to spoustim z toho odkazu tak nefunguje css?? 
+also zdravim vsechny prihlizejici

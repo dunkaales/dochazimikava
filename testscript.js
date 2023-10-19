@@ -1,4 +1,4 @@
-window.onload = function () { 
+
     const questions = [
         {
             question: "1. Do you feel anxious or stressed when you are without a phone or computer device for an extended period of time?",
@@ -118,4 +118,3 @@ window.onload = function () {
         resultButton.style.display = 'none';
         questionsElement.style.display = 'none';
     }
-}
