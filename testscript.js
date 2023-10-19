@@ -106,9 +106,9 @@
     function showResult(){
     
         scoreValueElement.textContent = score;
-        if (score > 16) {
+        if (score > 17) {
             textPsych.textContent = 'The score of your test implies that you are highly addicted to your phone/computer device & the internet.';
-        } else if (score > 8) {
+        } else if (score > 9) {
             textPsych.textContent = 'The score results reflect significant device usage, yet without signs of addiction.';
         } else {
             textPsych.textContent = 'The score results indicate a healthy and balanced approach to device usage, without any signs of addiction';
