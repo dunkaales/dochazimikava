@@ -1,6 +1,6 @@
 ukoly:
 
-a) upravit script aby zmizelo results tlacitko a vsechen text krome vysledku po vyplneni - Klara
+a) upravit script aby zmizelo results tlacitko a vsechen text krome vysledku po vyplneni - Klara - HOTOVO
 
 b) upravit styl dotazniku po oprave scriptu - Ales
 
