@@ -59,10 +59,14 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     background-color: var(--yellow);
     font-weight: bold;
     cursor: pointer;
+    backface-visibility: hidden;
+    transition: 0.2s ease;
 }
 
+.headerbutton > span:hover{font-size: 19px;}
+
 .text-side > h1{font-size: clamp(72px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
-.text-side >h2{margin: 0;} /*vypinam margin aby byly texty bliz*/
+.text-side >h2{margin: 0; font-size: clamp(20px, 3vw, 32px);} /*vypinam margin aby byly texty bliz*/
 h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicted" */
 
 .text-side{width: 40%;}
@@ -74,13 +78,17 @@ h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicte
 .testdiv
 {
     background-color: var(--white);
-    border-radius: 25px;
+    border-radius: 12px;
     margin-top: 30px;
     overflow: auto;
     color: var(--dark-gray);
 
     height: 80vh; 
     width: 65vh;
+
+    -webkit-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
+    -moz-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
+    box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
 }
 
 .test{width: 90%; margin: auto;}
@@ -126,7 +134,42 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+.question-container > div
+{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
 .answer-container {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.answer-container > div.radio-label
+{
+    background: var(--yellow); 
+    width: 45px; height: 42px;
+    border-radius: 50%;
+    margin: 12px 0px;
+    border: var(--light-gray) 3px solid;
+}
+
+.answer-container > div.radio-label > input, label
+{opacity: 0;}
+
+.testdiv > div{margin-top: 10px;}
+.testdiv h1{text-align: center;margin-bottom: 12px; font-size:clamp(15px 7vw, 50px);}
+
+body > main > div > div.test-side > div > div > div > button
+{
+    font-size: 30px;
+    border: none;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 20px;
 }
