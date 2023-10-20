@@ -4,7 +4,7 @@ a) upravit script aby zmizelo results tlacitko a vsechen text krome vysledku po 
 
 b) upravit styl dotazniku po oprave scriptu - Ales
 
-c) pridat slidery/reviews - Klara 
+c) pridat slidery/reviews - Klara - zacnu pracovat na tom v noci :3
 
 d) pridat chatbota - Klara - HOTOVO
 
