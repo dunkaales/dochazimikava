@@ -66,6 +66,8 @@ questions.forEach((q, index) => {
         <div class="question-container">
             <div>${q.question}</div>
             <div class="answer-container">
+                <p class = "green"> Agree </p>
+            
                 <div class="radio-label">
                     <input type="radio" name="q${index}" value="Yes" id="q${index}_yes">
                     <label for="q${index}_yes">Yes</label>
@@ -78,6 +80,9 @@ questions.forEach((q, index) => {
                     <input type="radio" name="q${index}" value="No" id="q${index}_no">
                     <label for="q${index}_no">No</label>
                 </div>
+
+                <p class = "red"> Disagree </p>
+
             </div>
         </div>
     `;

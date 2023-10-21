@@ -154,9 +154,9 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 
 .answer-container > div.radio-label:hover{transform: scale(110%);}
 
-.answer-container > div.radio-label:nth-child(1){border: rgb(61, 175, 61) 3px solid;}
-.answer-container > div.radio-label:nth-child(2){border: var(--light-gray) 3px solid; width: 30px; height: 30px;}
-.answer-container > div.radio-label:nth-child(3){border: #d13838 3px solid;}
+.answer-container > div.radio-label:nth-child(2){border: rgb(61, 175, 61) 3px solid;}
+.answer-container > div.radio-label:nth-child(3){border: var(--light-gray) 3px solid; width: 30px; height: 30px;}
+.answer-container > div.radio-label:nth-child(4){border: #d13838 3px solid;}
 
 .answer-container > div.radio-label > input, label
 {display: none;}
@@ -184,7 +184,9 @@ div.test-side > div > div > div > button:hover
     background-color:rgb(43, 129, 43);
 }
 
-
+.answer-container p{font-weight: bold;font-size: smaller;}
+.green{color:rgb(50, 151, 50);}
+.red{color: #d13838;}
 
 .container
 {
