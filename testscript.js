@@ -136,9 +136,15 @@ function showResult(){
             radioContainers.forEach(container => {
                 const radioInput = container.querySelector('input[type="radio"]');
                 if (radioInput.checked) {
-                    container.classList.add("selected");
+
+                    const borderColor = window.getComputedStyle(container).borderColor;
+                    //container.style.backgroundColor = borderColor; 
+                    const rgbValues = borderColor.match(/\d+/g);
+                    const [r, g, b] = rgbValues;
+                    const rgbaColor = `rgba(${r}, ${g}, ${b}, 0.6)`;  
+                    container.style.backgroundColor = rgbaColor;                    
                 } else {
-                    container.classList.remove("selected");
+                    container.style.backgroundColor = "transparent";
                 }
             });
         }
