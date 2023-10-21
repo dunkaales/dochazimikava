@@ -87,7 +87,7 @@ h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicte
 
 .test{width: 90%; margin: auto;}
 
-.testdiv::-webkit-scrollbar{background:transparent;}
+.testdiv::-webkit-scrollbar{background:transparent; width: 13px;}
 .testdiv::-webkit-scrollbar-track{margin-block: 2em;} /*margin block abychom zkratili track*/
 .testdiv::-webkit-scrollbar-thumb /*scrollbar box*/
 {
@@ -167,3 +167,5 @@ body > main > div > div.test-side > div > div > div > button
     font-weight: bold;
     margin: 20px;
 }
+
+.selected{background-color: red !important;}
