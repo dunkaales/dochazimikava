@@ -1,55 +1,54 @@
-
 const questions = [
     {
-        question: "1. Do you feel anxious or stressed when you are without a phone or computer device for an extended period of time?",
+        question: "<strong>1.</strong> Do you feel anxious or stressed when you are without a phone or computer device for an extended period of time?",
         answer: "Somehow"
     },
     {
-        question: "2. Does your use of a phone or computer device affect your social or love life?",
+        question: "<strong>2.</strong> Does your use of a phone or computer device affect your social or love life?",
         answer: "Somehow"
     },
     {
-        question: "3. Do you spend the majority of your time online?",
+        question: "<strong>3.</strong> Do you spend the majority of your time online?",
         answer: "Somehow"
     },
     {
-        question: "4. Do you neglect your basic bodily needs, such as hygiene, sleep, or eating, in order to spend more time on your phone or computer device?",
+        question: "<strong>4.</strong> Do you neglect your basic bodily needs, such as hygiene, sleep, or eating, in order to spend more time on your phone or computer device?",
         answer: "Somehow"
     },
     {
-        question: "5. Do you primarily communicate through the internet?",
+        question: "<strong>5.</strong> Do you primarily communicate through the internet?",
         answer: "Somehow"
     },
     {
-        question: "6. Have you ever missed important real-life events or obligations because of excessive phone or computer usage?",
+        question: "<strong>6.</strong> Have you ever missed important real-life events or obligations because of excessive phone or computer usage?",
         answer: "Somehow"
     },
     {
-        question: "7. Do you frequently lose track of time while using your phone or computer, leading to hours passing without your awareness?",
+        question: "<strong>7.</strong> Do you frequently lose track of time while using your phone or computer, leading to hours passing without your awareness?",
         answer: "Somehow"
     },
     {
-        question: "8. Do you struggle with any addictions, such as alcohol abuse, drug abuse, or nicotine addiction?",
+        question: "<strong>8.</strong> Do you struggle with any addictions, such as alcohol abuse, drug abuse, or nicotine addiction?",
         answer: "Somehow"
     },
     {
-        question: "9. Do you experience feelings of depression?",
+        question: "<strong>9.</strong> Do you experience feelings of depression?",
         answer: "Somehow"
     },
     {
-        question: "10. Do you consider yourself productive in any way?",
+        question: "<strong>10.</strong> Do you consider yourself productive in any way?",
         answer: "Somehow"
     },
     {
-        question: "11. Do you consume energy drinks or coffee solely to extend your time on your phone or computer device?",
+        question: "<strong>11.</strong> Do you consume energy drinks or coffee solely to extend your time on your phone or computer device?",
         answer: "Somehow"
     },
     {
-        question: "12. Do you hide the amount of time you spend online?",
+        question: "<strong>12.</strong> Do you hide the amount of time you spend online?",
         answer: "Somehow"
     },
     {
-        question: "13. Have you ever considered seeking professional help or support to manage your phone or computer usage?",
+        question: "<strong>13.</strong> Have you ever considered seeking professional help or support to manage your phone or computer usage?",
         answer: "Somehow"
     }
 ];
@@ -138,11 +137,7 @@ function showResult(){
                 if (radioInput.checked) {
 
                     const borderColor = window.getComputedStyle(container).borderColor;
-                    //container.style.backgroundColor = borderColor; 
-                    const rgbValues = borderColor.match(/\d+/g);
-                    const [r, g, b] = rgbValues;
-                    const rgbaColor = `rgba(${r}, ${g}, ${b}, 0.6)`;  
-                    container.style.backgroundColor = rgbaColor;                    
+                    container.style.backgroundColor = borderColor;                   
                 } else {
                     container.style.backgroundColor = "transparent";
                 }

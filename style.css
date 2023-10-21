@@ -41,6 +41,7 @@ transition: 0.3s ease;
     width: 300px;
     height: 55px;
     transform: translateY(5px);
+    cursor: pointer;
 }
 
 main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
@@ -78,7 +79,7 @@ h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicte
     color: var(--dark-gray);
 
     height: 80vh; 
-    width: 65vh;
+    width: 67vh;
 
     -webkit-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
     -moz-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
@@ -126,7 +127,7 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 .question-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    padding: 15px 0px;
 }
 
 .question-container > div
@@ -139,12 +140,13 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 .answer-container {
     display: inline-flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .answer-container > div.radio-label
 {
     background: transparent; 
-    width: 45px; height: 42px;
+    width: 40px; height: 40px;
     border-radius: 50%;
     margin: 12px 0px;
     transition: 0.3s ease;
@@ -152,24 +154,41 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 
 .answer-container > div.radio-label:hover{transform: scale(110%);}
 
-.answer-container > div.radio-label:nth-child(1){border: rgba(0, 128, 0, 1) 3px solid;}
-.answer-container > div.radio-label:nth-child(2){border: rgba(61, 60, 60, 1) 3px solid;}
-.answer-container > div.radio-label:nth-child(3){border: rgba(209, 56, 56, 1) 3px solid;}
+.answer-container > div.radio-label:nth-child(1){border: rgb(61, 175, 61) 3px solid;}
+.answer-container > div.radio-label:nth-child(2){border: var(--light-gray) 3px solid; width: 30px; height: 30px;}
+.answer-container > div.radio-label:nth-child(3){border: #d13838 3px solid;}
 
 .answer-container > div.radio-label > input, label
 {display: none;}
 
 .testdiv > div{margin-top: 10px;}
-.testdiv h1{text-align: center;margin-bottom: 12px; font-size:clamp(15px 7vw, 50px);}
+.testdiv h1{text-align: center;margin-bottom: 12px; font-size:clamp(10px, 5vw, 50px);}
+#questions > div > div:nth-child(1){font-size:clamp(4px, 40vw, 18px);}
 
-body > main > div > div.test-side > div > div > div > button
+
+div.test-side > div > div > div > button
 {
-    font-size: 30px;
+    font-size: 20px;
     border: none;
-    background-color: var(--dark-gray);
+    background-color:rgb(50, 151, 50);
     color: var(--white);
-    padding: 10px 15px;
-    border-radius: 7px;
-    font-weight: bold;
-    margin: 20px;
+    padding: 2vh 5vh;
+    border-radius: 100px;
+    margin: 20px; 
+    transition: 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+div.test-side > div > div > div > button:hover
+{
+    background-color:rgb(43, 129, 43);
+}
+
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
