@@ -1,16 +1,14 @@
 ukoly:
 
-a) upravit script aby zmizelo results tlacitko a vsechen text krome vysledku po vyplneni - Klara - HOTOVO
+b) upravit styl dotazniku po oprave scriptu - Ales (rozkutit to bylo neskutecne srani)
 
-b) upravit styl dotazniku po oprave scriptu - Ales
+c) pridat slidery/reviews - Klara - tak ale delej nemame moc casu T-T
 
-c) pridat slidery/reviews - Klara - zacnu pracovat na tom v noci :3
-
-d) pridat chatbota - Klara - HOTOVO
-
-e) pridat zbytek stranky(2 mensi a 1 velky div s ?necim? - viz figma) 
+e) pridat zbytek kontentu(2 mensi a 1 velky div s ?necim? - viz figma) - ???
 
 f) udelat footer - ???
+
+g) vymslet co bude na dalsich 2 strankach a jak zhruba budou vypadat - ???
 
 
 
