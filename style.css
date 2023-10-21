@@ -1,14 +1,8 @@
 /* ahoj klarko tady si muzeme popripade psat cute zpravicky :333
 
-pokusim se ti stihnout udelat alespon ten langing layout pro tvuj autisticky testik,
-jestli to neni jeste dnes hotove tak jsem usnur sorik
-
-myslim ze fontik muze zustat porad si nejsem celkovym feelem designu ale premyslim nad 
-trosicku nad earthy tones ale mozna kombinace tmave sede, chcankove zlute a nejakymi mezibarvami by mohla
-byt taky dost fresh
-
-
-ahoj lmao, tohle je goofy af... snazim se to nejak fitnout tho. mas tam uz ten js a v txt filu to ostatni
+K:  ahoj lmao, tohle je goofy af... snazim se to nejak fitnout tho. mas tam uz ten js a v txt filu to ostatni
+A:  :3
+K:  
 */
 
 
@@ -157,7 +151,7 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 }
 
 .answer-container > div.radio-label > input, label
-{opacity: 0;}
+{display: none;}
 
 .testdiv > div{margin-top: 10px;}
 .testdiv h1{text-align: center;margin-bottom: 12px; font-size:clamp(15px 7vw, 50px);}
