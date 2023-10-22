@@ -193,4 +193,8 @@ div.test-side > div > div > div > button:hover
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
+
+#textpsych{font-size: 30px;text-align: center;}
+#score-value{font-size: 55px;background-color: #F5B316; margin: 40px;padding: 40px;border-radius: 1000px;color: var(--dark-gray);}
