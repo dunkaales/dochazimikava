@@ -11,9 +11,13 @@ body
     background-color: var(--dark-gray);
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--white);
-
     overflow-x: hidden;
-    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar 
+{
+    width: 0;
+    display: none; 
 }
 
 header      /* header ma 100% aby "space around" fungoval neatly, */
@@ -198,3 +202,12 @@ div.test-side > div > div > div > button:hover
 
 #textpsych{font-size: 30px;text-align: center;}
 #score-value{font-size: 55px;background-color: #F5B316; margin: 40px;padding: 40px;border-radius: 1000px;color: var(--dark-gray);}
+
+.info{display: flex;align-items: center;justify-content: space-around;margin-top: 15vh;}
+.info > div{width: 35vw; height: 85vh; background-color: var(--white); margin: 20px; border-radius: 11px;
+
+    -webkit-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
+    -moz-box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
+    box-shadow: 3px 1px 30px -6px rgba(0,0,0,0.65);
+
+}
