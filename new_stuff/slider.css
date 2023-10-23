@@ -144,6 +144,11 @@ body {
   bottom: 2rem;
   left: 2rem;
   color: var(--white);
+  background-color: rgba(128, 128, 128, 0.5);
+  margin-right:5%;
+  margin-bottom: -2%;
+  padding: 10px;
+  border-radius: 10px; 
 }
 
 .psych-rating {
