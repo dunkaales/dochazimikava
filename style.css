@@ -127,7 +127,7 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
     opacity: 30%;
     z-index: -1;
     margin: -300px;
-    scale: 300%;
+    transform: scale(3);
 }
 
 #one{left: 0;top: 0;}
