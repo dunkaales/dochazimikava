@@ -167,3 +167,14 @@ function showResult(){
                 }
             });
         });
+
+        window.addEventListener('scroll', function () {
+            const element = document.querySelector('#three');
+            const maxVisibility = 0.3; // Max opacity you want
+        
+            // Calculate opacity based on scroll position
+            const opacity = Math.min(1, window.scrollY / 1000); // Adjust the denominator as needed
+        
+            // Ensure opacity does not exceed the maximum you desire
+            element.style.opacity = Math.min(maxVisibility, opacity);
+        });

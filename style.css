@@ -132,6 +132,13 @@ dal jsem "nowrap" aby to zustalo takto a box se neobjevil v zadnem pripade pod t
 
 #one{left: 0;top: 0;}
 #two{right: 0; top: 75vh}
+#three{position: fixed;
+    left: 48%;
+    bottom: 0;
+
+    opacity: 0; /* Initial opacity */
+    transition: opacity 2s ease-out /* Smooth transition */
+}
 
 .question-container {
     display: flex;
