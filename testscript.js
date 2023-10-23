@@ -36,7 +36,7 @@ const questions = [
         answer: "Somehow"
     },
     {
-        question: "<strong>10.</strong> Are you not productive in any way?",
+        question: "<strong>10.</strong> Are you unproductive in any way?",
         answer: "Somehow"
     },
     {
