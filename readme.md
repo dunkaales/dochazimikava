@@ -2,11 +2,11 @@ ukoly:
 
 b) upravit styl dotazniku po oprave scriptu - Ales (rozkutit to bylo neskutecne srani)
 
-c) pridat slidery/reviews - Klara - tak ale delej nemame moc casu T-T
+c) pridat slidery/reviews - Klara - HOTOVO
 
 e) pridat zbytek kontentu(2 mensi a 1 velky div s ?necim? - viz figma) - ???
 
-f) udelat footer - ???
+f) udelat footer - ??? HOTOVO
 
 g) vymslet co bude na dalsich 2 strankach a jak zhruba budou vypadat - ???
 
