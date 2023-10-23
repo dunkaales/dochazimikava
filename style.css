@@ -215,7 +215,7 @@ div.test-side > div > div > div > button:hover
     -moz-box-shadow: 3px 1px 30px -6px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 1px 30px -6px rgba(0, 0, 0, 0.65);
   
-    width: 55vh;
+    width: 60vh;
     height: 85vh;
   
     background-color: var(--white);
