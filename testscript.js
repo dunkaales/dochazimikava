@@ -53,6 +53,9 @@ const questions = [
     }
 ];
 
+const result = document.querySelector("#score-value")
+result.style.display = "none";
+
 let score = 0;
 
 const questionsElement = document.getElementById('questions');
@@ -108,6 +111,7 @@ function calculateScore() {
         }
     });
 }
+
 function showResult(){
 
     scoreValueElement.textContent = score;
@@ -120,6 +124,8 @@ function showResult(){
     }
 
     const resultButton = document.querySelector('button');
+    const result = document.querySelector("#score-value")
+    result.style.display = "inherit";
     resultButton.style.display = 'none';
     questionsElement.style.display = 'none';
 }
