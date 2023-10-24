@@ -55,7 +55,7 @@ transition: 0.3s ease;
 
 main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
 
-.headerbutton > span      /* tlacitko v headru */
+.headerbutton > span > a   /* tlacitko v headru */
 {
     padding: 10px 15px;
     border-radius: 10px;
@@ -65,6 +65,7 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     cursor: pointer;
     backface-visibility: hidden;
     transition: 0.2s ease;
+    text-decoration: none;
 }
 
 .headerbutton > span:hover{font-size: 19px;}
