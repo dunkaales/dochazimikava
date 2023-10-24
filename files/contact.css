@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none !important;
 }
 header      /* header ma 100% aby "space around" fungoval neatly, */
 {
