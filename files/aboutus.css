@@ -11,7 +11,6 @@ body
     background-color: var(--dark-gray);
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--white);
-    overflow-x: hidden;
     overflow: hidden;
 }
 
@@ -191,39 +190,13 @@ ul{
 
 @media screen and (max-width: 600px)
 {
-    .info
+    .bruh
     {
         flex-direction: column;
     }
-
-    .info > div
+    .body
     {
-        width: 43vh;
-    }
-
-    .info > div > div.text
-    {
-        min-height: 40%;
-
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .text-side h2
-    {
-        font-size:initial;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .text-side h1
-    {
-        text-align: center;
-    }
-
-    .text-side p
-    {
-        font-size: initial;
+        overflow: auto;
     }
 
     .footer-col
