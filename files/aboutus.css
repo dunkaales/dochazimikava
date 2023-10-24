@@ -86,7 +86,6 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     height: auto; /* Maintain aspect ratio */
     margin-left: 200px; /* Add some space between the image and text */
     margin-right: 600px;
-    border-radius: 15%;
   }
   
   .text{
