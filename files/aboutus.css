@@ -12,6 +12,7 @@ body
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--white);
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar 
@@ -67,6 +68,22 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
 
 .headerbutton > span:hover{font-size: 19px;}
 
+
+.gradcircle
+{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, var(--yellow), transparent, transparent);
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    margin: -300px;
+    transform: scale(3);
+}
+
+#one{left: 0;top: 0;}
+#two{right: 0; bottom: 0}
 :root
 {
     --dark-gray: #3d3c3c;
@@ -81,6 +98,7 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 20px;
   }
   
   .img {
@@ -94,6 +112,10 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     margin: 0; /* Remove default paragraph margin */
   }
   
+  h1{
+    padding-bottom: 2%;
+    color: var(--yellow);
+  }
 
 footer > div{
 	max-width: 100%;
