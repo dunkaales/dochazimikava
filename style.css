@@ -375,6 +375,9 @@ ul{
     .info > div > div.text
     {
         min-height: 40%;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .text-side h2
