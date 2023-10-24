@@ -2,11 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="files/contact.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <header>
+
+      <div class = "links">
+  
+        <span><a href="new_stuff/contact.html">Kunda</a></span>
+        <span>About us</span>
+        <span>Help center</span>
+        <span>Community</span>
+        
+      </div>
+      
+      <div class = "logo">
+          <img src="logos/Group 9logo_light.png">
+      </div>
+
+      <div class="headerbutton"><span><a href="contact.html">We're here to help 24/7</a></span></div>
+    </header>
     <div class="container">
       <div class="content">
         <div class="left-side">
@@ -49,5 +66,21 @@
         </div>
       </div>
     </div>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const sendButton = document.querySelector('input[value="Send Now"]');
+    const nameInput = document.querySelector('input[placeholder="Enter your name"]');
+    const emailInput = document.querySelector('input[placeholder="Enter your email"]');
+    const messageInput = document.querySelector('textarea[placeholder="Enter your message"]');
+    
+    sendButton.addEventListener('click', function () {
+      // Clear the input fields
+      nameInput.value = '';
+      emailInput.value = '';
+      messageInput.value = '';
+    });
+  });
+    </script>
   </body>
 </html>

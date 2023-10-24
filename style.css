@@ -237,7 +237,12 @@ div.test-side > div > div > div > button:hover
     border-radius: 11px;
     position: relative;
 }
-  
+.signs{
+    background-image: url("img/man-using-mobile-phone.jpg");
+}
+.understanding{
+    background-image: url("img/portrait-person-suffering-from-depression.jpg");
+}
 .info > div > div.text 
 {
     height: 23vh;
