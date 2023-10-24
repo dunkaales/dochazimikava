@@ -36,9 +36,7 @@ text-decoration: none;
     height: 55px;
     transform: translateY(5px);
     cursor: pointer;
-    
 }
-
 .headerbutton > span > a 
 {
     padding: 10px 15px;
