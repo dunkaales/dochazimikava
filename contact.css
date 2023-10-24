@@ -1,11 +1,54 @@
 /* Google Font CDN Link */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
+header      /* header ma 100% aby "space around" fungoval neatly, */
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+
+    color:white;
+    position: fixed;
+    top: 0;
+}
+
+header > div{width: 33%;display: flex;justify-content: center;} /* protoze mame v headru 3 hlavni sekce tak jsem jim vsem dal sirku 33% 
+aby se element uprostred - logo opravdu zobrazoval uprostred */
+
+.links span
+{padding: 15px; font-weight: bold;cursor: pointer; 
+backface-visibility: hidden; /*pri pouzivani scale se diky tomuto lepe text renderuje a neni blurred pri transition*/
+transition: 0.3s ease;
+} 
+
+.links span:hover{scale: 120%;}
+
+.logo
+{ 
+    width: 300px;
+    height: 55px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.headerbutton > span    
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #3d3c3c;
+    background-color: #F5B316;
+    font-weight: bold;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: 0.2s ease;
+}
+.headerbutton > span:hover{font-size: 19px;}
 body {
   min-height: 100vh;
   width: 100%;
