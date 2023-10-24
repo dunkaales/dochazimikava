@@ -379,7 +379,7 @@ ul{
 
     .info > div > div.text
     {
-        min-height: 30vh;
+        min-height: 40%;
     }
 
     .text-side h2
@@ -444,7 +444,7 @@ ul{
     header
     {
         flex-direction: column;
-        border-bottom: 1px solid var(--light-gray);
+        padding-bottom: 50px;
     }
 
     header > div
