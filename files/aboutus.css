@@ -75,10 +75,26 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     --white: #E7E5E5;
 }
 
-
-.longasstext{
-    width: 50%;
-}
+.bruh{
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Vertically align content in the center */
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .img {
+    width: 100px; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 200px; /* Add some space between the image and text */
+    margin-right: 600px;
+    border-radius: 15%;
+  }
+  
+  .text{
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
 
 footer > div{
 	max-width: 100%;
