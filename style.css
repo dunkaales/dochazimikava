@@ -2,7 +2,7 @@
 
 K:  ahoj lmao, tohle je goofy af... snazim se to nejak fitnout tho. mas tam uz ten js a v txt filu to ostatni
 A:  :3
-K:  
+K:  :3
 */
 
 *{
@@ -55,7 +55,7 @@ transition: 0.3s ease;
 
 main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
 
-.headerbutton > span      /* tlacitko v headru */
+.headerbutton > span > a   /* tlacitko v headru */
 {
     padding: 10px 15px;
     border-radius: 10px;
@@ -65,6 +65,7 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     cursor: pointer;
     backface-visibility: hidden;
     transition: 0.2s ease;
+    text-decoration: none;
 }
 
 .headerbutton > span:hover{font-size: 19px;}
@@ -237,12 +238,6 @@ div.test-side > div > div > div > button:hover
     border-radius: 11px;
     position: relative;
 }
-.signs{
-    background-image: url("img/man-using-mobile-phone.jpg");
-}
-.understanding{
-    background-image: url("img/portrait-person-suffering-from-depression.jpg");
-}
 .info > div > div.text 
 {
     height: 23vh;
@@ -358,8 +353,8 @@ ul{
 }*/
 
 
-.understanding{background-image: url(addict3.jpg);}
-.signs{background-image: url(addict2.jpg);}
+.understanding{background-image: url(img/portrait-person-suffering-from-depression.jpg);}
+.signs{background-image: url(img/man-using-mobile-phone.jpg);}
 
 .info > div{background-size: cover; background-position-y: -120px;}
 

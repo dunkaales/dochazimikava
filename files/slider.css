@@ -1,4 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+header      /* header ma 100% aby "space around" fungoval neatly, */
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+
+    color:white;
+    position: fixed;
+    top: 0;
+}
+
+header > div{width: 33%;display: flex;justify-content: center;} /* protoze mame v headru 3 hlavni sekce tak jsem jim vsem dal sirku 33% 
+aby se element uprostred - logo opravdu zobrazoval uprostred */
+
+.links span
+{padding: 15px; font-weight: bold;cursor: pointer; 
+backface-visibility: hidden; /*pri pouzivani scale se diky tomuto lepe text renderuje a neni blurred pri transition*/
+transition: 0.3s ease;
+text-decoration: none;
+} 
+
+.links span:hover{scale: 120%;}
+
+.logo
+{ 
+    width: 300px;
+    height: 55px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+.headerbutton > span > a 
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #3d3c3c;
+    background-color: #F5B316;
+    font-weight: bold;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.headerbutton > span:hover{font-size: 19px;}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #3d3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 *,
 *::before,
 *::after {
@@ -17,7 +71,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -37,24 +91,6 @@ html {
   html {
     zoom: 2.5;
   }
-}
-
-::-webkit-scrollbar {
-  width: 1.3rem;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 1rem;
-  background: #797979;
-  transition: all 0.5s ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #222224;
-}
-
-::-webkit-scrollbar-track {
-  background: #f9f9f9;
 }
 
 body {
