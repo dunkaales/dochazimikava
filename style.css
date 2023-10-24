@@ -69,9 +69,9 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
 
 .headerbutton > span:hover{font-size: 19px;}
 
-.text-side > h1{font-size: clamp(72px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
+.text-side > h1{font-size: clamp(60px, 5vw, 140px);margin-bottom: 0;} /* clamp pro responzivni velikost textu    clamp(min velikost, jakysi pomer, max velikost) */
 .text-side >h2{margin: 0; font-size: clamp(20px, 3vw, 32px);} /*vypinam margin aby byly texty bliz*/
-h1 > span{font-size: clamp(72px, 6vw, 240px); color: var(--yellow);} /* "addicted" */
+h1 > span{font-size: clamp(60px, 6vw, 240px); color: var(--yellow);} /* "addicted" */
 
 .text-side{width: 40%;}
 .text-side{width: 60%;}
@@ -339,7 +339,7 @@ ul{
 	background-color: var(--white);
 }
 
-/*responsive*/
+/*responsive
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -350,4 +350,124 @@ ul{
   .footer-col{
     width: 100%;
 }
+}*/
+
+
+.understanding{background-image: url(addict3.jpg);}
+.signs{background-image: url(addict2.jpg);}
+
+.info > div{background-size: cover; background-position-y: -120px;}
+
+.info > div span{color: var(--yellow);}
+
+@media screen and (max-width: 600px)
+{
+    .info
+    {
+        flex-direction: column;
+    }
+
+    .info > div
+    {
+        width: 43vh;
+    }
+
+    .info > div > div.text
+    {
+        min-height: 30vh;
+    }
+
+    .text-side h2
+    {
+        font-size:initial;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .text-side h1
+    {
+        text-align: center;
+    }
+
+    .text-side p
+    {
+        font-size: initial;
+    }
+
+    .footer-col
+    {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .landing
+    {
+        flex-wrap: wrap;
+    }
+
+    .landing .text-side
+    {
+        width: 100%;
+    }
+
+    .landing .test-side
+    {
+        max-width: 100%;
+    }
+
+    .testdiv
+    {
+        width: 100%;
+    }
+
+    .gradcircle
+    {
+        display: none;
+    }
+
+    main
+    {
+        width: 98%;
+    }
+
+    .longasstext
+    {
+        width: 97%;
+        margin: auto;
+    }
+
+    header
+    {
+        flex-direction: column;
+        border-bottom: 1px solid var(--light-gray);
+    }
+
+    header > div
+    {
+        width: 100%;
+    }
+
+    .logo
+    {
+        width: 100%;
+        position: relative;
+        height: 100px;
+
+        background-image: url(logos/Group\ 9logo_light.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        scale: 60%;
+        order: -2;
+    }
+
+    .logo > img
+    {
+        display: none;
+    }
+
+    .headerbutton
+    {
+        order:-1;
+        scale: 80%;
+    }
 }
