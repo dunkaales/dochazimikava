@@ -2,7 +2,7 @@
 
 K:  ahoj lmao, tohle je goofy af... snazim se to nejak fitnout tho. mas tam uz ten js a v txt filu to ostatni
 A:  :3
-K:  
+K:  :3
 */
 
 *{
@@ -238,12 +238,6 @@ div.test-side > div > div > div > button:hover
     border-radius: 11px;
     position: relative;
 }
-.signs{
-    background-image: url("img/man-using-mobile-phone.jpg");
-}
-.understanding{
-    background-image: url("img/portrait-person-suffering-from-depression.jpg");
-}
 .info > div > div.text 
 {
     height: 23vh;
@@ -359,8 +353,8 @@ ul{
 }*/
 
 
-.understanding{background-image: url(addict3.jpg);}
-.signs{background-image: url(addict2.jpg);}
+.understanding{background-image: url(img/portrait-person-suffering-from-depression.jpg);}
+.signs{background-image: url(img/man-using-mobile-phone.jpg);}
 
 .info > div{background-size: cover; background-position-y: -120px;}
 
