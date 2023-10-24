@@ -40,6 +40,8 @@ transition: 0.3s ease;
 
 .links span:hover{scale: 120%;}
 
+
+
 .logo
 { 
     width: 300px;
@@ -85,6 +87,8 @@ footer > div{
 .row{
 	display: flex;
 	flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 ul{
 	list-style: none;
@@ -94,7 +98,6 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
    padding: 0 15px;
 }
 .footer-col h4{
