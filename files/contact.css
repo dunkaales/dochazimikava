@@ -5,6 +5,43 @@
   box-sizing: border-box;
   text-decoration: none !important;
 }
+
+body
+{
+  overflow-y: hidden;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#two{right: 0; top: 75vh}
+
+.gradcircle
+{
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, var(--yellow), transparent, transparent);
+  position: absolute;
+  opacity: 30%;
+  z-index: -1;
+  margin: -300px;
+  transform: scale(3);
+}
+
+#one{left: 0;top: 0;}
+
+:root
+{
+    --dark-gray: #3d3c3c;
+    --light-gray: #646363;
+    --yellow: #F5B316;
+    --white: #E7E5E5;
+}
+
+input, textarea
+{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 header      /* header ma 100% aby "space around" fungoval neatly, */
 {
     display: inline-flex;
