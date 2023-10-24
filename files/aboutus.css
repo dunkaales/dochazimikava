@@ -194,6 +194,12 @@ ul{
     {
         flex-direction: column;
     }
+    .text{
+
+    }
+    .img{
+        
+    }
     .body
     {
         overflow: auto;
@@ -258,7 +264,7 @@ ul{
         position: relative;
         height: 100px;
 
-        background-image: url(logos/Group\ 9logo_light.png);
+        background-image: url(logos\Group9logo_light.png);
         background-size: contain;
         background-repeat: no-repeat;
         scale: 60%;
