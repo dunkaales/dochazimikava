@@ -1,0 +1,264 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body
+{
+    background-color: var(--dark-gray);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar 
+{
+    width: 0;
+    display: none; 
+}
+
+header      /* header ma 100% aby "space around" fungoval neatly, */
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+header > div{width: 33%;display: flex;justify-content: center;} /* protoze mame v headru 3 hlavni sekce tak jsem jim vsem dal sirku 33% 
+aby se element uprostred - logo opravdu zobrazoval uprostred */
+
+.links span
+{padding: 15px; font-weight: bold;cursor: pointer; 
+backface-visibility: hidden; /*pri pouzivani scale se diky tomuto lepe text renderuje a neni blurred pri transition*/
+transition: 0.3s ease;
+} 
+
+.links span:hover{scale: 120%;}
+
+.logo
+{ 
+    width: 300px;
+    height: 55px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz odsazeni:3 */
+
+.headerbutton > span > a   /* tlacitko v headru */
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: var(--dark-gray);
+    background-color: var(--yellow);
+    font-weight: bold;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.headerbutton > span:hover{font-size: 19px;}
+
+:root
+{
+    --dark-gray: #3d3c3c;
+    --light-gray: #646363;
+    --yellow: #F5B316;
+    --white: #E7E5E5;
+}
+
+
+.longasstext{
+    width: 50%;
+}
+
+footer > div{
+	max-width: 100%;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: transparent;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: var(--yellow);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: var(--white);
+	text-decoration: none;
+	font-weight: 300;
+	color: var(--white);
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: var(--white);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: var(--light-gray);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: var(--white);
+}
+
+@media screen and (max-width: 600px)
+{
+    .info
+    {
+        flex-direction: column;
+    }
+
+    .info > div
+    {
+        width: 43vh;
+    }
+
+    .info > div > div.text
+    {
+        min-height: 40%;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .text-side h2
+    {
+        font-size:initial;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .text-side h1
+    {
+        text-align: center;
+    }
+
+    .text-side p
+    {
+        font-size: initial;
+    }
+
+    .footer-col
+    {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .landing
+    {
+        flex-wrap: wrap;
+    }
+
+    .landing .text-side
+    {
+        width: 100%;
+    }
+
+    .landing .test-side
+    {
+        max-width: 100%;
+    }
+
+    .testdiv
+    {
+        width: 100%;
+    }
+
+    .gradcircle
+    {
+        display: none;
+    }
+
+    main
+    {
+        width: 98%;
+    }
+
+    .longasstext
+    {
+        width: 97%;
+        margin: auto;
+    }
+
+    header
+    {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    header > div
+    {
+        width: 100%;
+    }
+
+    .logo
+    {
+        width: 100%;
+        position: relative;
+        height: 100px;
+
+        background-image: url(logos/Group\ 9logo_light.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        scale: 60%;
+        order: -2;
+    }
+
+    .logo > img
+    {
+        display: none;
+    }
+
+    .headerbutton
+    {
+        order:-1;
+        scale: 80%;
+    }
+}
