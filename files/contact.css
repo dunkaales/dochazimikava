@@ -25,6 +25,7 @@ aby se element uprostred - logo opravdu zobrazoval uprostred */
 {padding: 15px; font-weight: bold;cursor: pointer; 
 backface-visibility: hidden; /*pri pouzivani scale se diky tomuto lepe text renderuje a neni blurred pri transition*/
 transition: 0.3s ease;
+text-decoration: none;
 } 
 
 .links span:hover{scale: 120%;}
@@ -35,9 +36,10 @@ transition: 0.3s ease;
     height: 55px;
     transform: translateY(5px);
     cursor: pointer;
+    
 }
 
-.headerbutton > span    
+.headerbutton > span > a 
 {
     padding: 10px 15px;
     border-radius: 10px;
@@ -47,6 +49,7 @@ transition: 0.3s ease;
     cursor: pointer;
     backface-visibility: hidden;
     transition: 0.2s ease;
+    text-decoration: none;
 }
 .headerbutton > span:hover{font-size: 19px;}
 body {
