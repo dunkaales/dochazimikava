@@ -9,6 +9,7 @@ K:  :3
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+    text-decoration: none !important;
 }
 
 body
@@ -78,15 +79,14 @@ h1 > span{font-size: clamp(60px, 6vw, 240px); color: var(--yellow);} /* "addicte
 .text-side{width: 60%;}
 .longasstext{width: 70%;}
 
-.testdiv h1{margin: 0; padding: 0;}
-
+.testdiv h1{margin: 0; padding: 0;color: var(--dark-gray);}
 .testdiv
 {
     background-color: var(--white);
+    color: var(--dark-gray);
     border-radius: 12px;
     margin-top: 30px;
     overflow: auto;
-    color: var(--dark-gray);
 
     height: 80vh; 
     width: 67vh;
