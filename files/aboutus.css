@@ -73,6 +73,21 @@ main{width: 90%;margin: auto;} /* snizuji sirku basically vseho contentu cuz ods
     --white: #E7E5E5;
 }
 
+.content-container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Vertically align content in the center */
+  }
+  
+  .content-container img {
+    width: 100px; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the image and text */
+  }
+  
+  .content-container p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
 
 footer > div{
 	max-width: 100%;
