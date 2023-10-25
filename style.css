@@ -470,7 +470,8 @@ ul{
 
     .headerbutton
     {
-        order:-1;
+        order:2;
         scale: 80%;
+        padding-top: 20px;
     }
 }
