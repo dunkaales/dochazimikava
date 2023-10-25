@@ -198,13 +198,12 @@ ul{
     .text{
         padding: 1px;
     }
-    .imgbruh{
+    .imgbruh{  
         visibility: hidden;
     }
     .body
     {
         overflow: hidden;
-        scroll-behavior: smooth;
     }
 
     .footer-col
