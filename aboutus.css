@@ -198,13 +198,13 @@ ul{
     .text{
         padding: 1px;
     }
-    .img{
-        display: none;
+    .imgbruh{
+        visibility: hidden;
     }
     .body
     {
-        min-height: 40%;
         overflow: hidden;
+        scroll-behavior: smooth;
     }
 
     .footer-col
