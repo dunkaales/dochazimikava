@@ -193,16 +193,18 @@ ul{
     .bruh
     {
         flex-direction: column;
+        padding: 5px;
     }
     .text{
-
+        padding: 1px;
     }
     .img{
-        
+        display: none;
     }
     .body
     {
-        overflow: auto;
+        min-height: 40%;
+        overflow: hidden;
     }
 
     .footer-col
@@ -211,40 +213,16 @@ ul{
         padding-bottom: 50px;
     }
 
-    .landing
-    {
-        flex-wrap: wrap;
-    }
-
-    .landing .text-side
+    .main 
     {
         width: 100%;
-    }
-
-    .landing .test-side
-    {
         max-width: 100%;
-    }
-
-    .testdiv
-    {
-        width: 100%;
+        flex-wrap: wrap;
     }
 
     .gradcircle
     {
         display: none;
-    }
-
-    main
-    {
-        width: 98%;
-    }
-
-    .longasstext
-    {
-        width: 97%;
-        margin: auto;
     }
 
     header
@@ -263,12 +241,12 @@ ul{
         width: 100%;
         position: relative;
         height: 100px;
-
-        background-image: url(logos\Group9logo_light.png);
         background-size: contain;
         background-repeat: no-repeat;
         scale: 60%;
         order: -2;
+
+        background-image: url(logos/Group\ 9logo_light.png);
     }
 
     .logo > img
